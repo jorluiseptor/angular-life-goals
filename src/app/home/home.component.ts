@@ -17,10 +17,13 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.itemCount = this.goals.length;
   }
+   
   addItem() {
-    this.goals.push(this.goalText);
-    this.goalText = '';
-    this.itemCount= this.goals.length;
+    if (this.goalText != ''){
+      this.goals.push(this.goalText);
+      this.goalText = '';
+      this.itemCount= this.goals.length;
+    }
   }
 
 }
