@@ -1,7 +1,9 @@
+<h1>
+  {{selectedGoal}}
+</h1>
 <p>
   Showing item #{{goalId}}. 
 </p>
 <p>
   This is what I'm all about. <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
 </p>
-<p class="life-container" *ngFor= "let goal of goals; let i = index" (click)='removeItem(i)'>{{goal}}</p>
