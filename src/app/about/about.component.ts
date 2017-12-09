@@ -11,12 +11,12 @@ import { DataService } from '../data.service';
 export class AboutComponent implements OnInit {
 
   goalId: number; 
-  goals: any; 
+  goals: any;
 
   constructor(private route: ActivatedRoute, private router: Router, private _data: DataService) {
     //gets the value from the route (URL) parameter
     this.route.params.subscribe(
-      res => this.goalId= res.id
+      res => this.goalId = res.id
     );
   }
 
