@@ -1,6 +1,8 @@
-# Spl
+# Angular Life Goals
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+
+This is based on the video: https://youtu.be/oa9cnWTpqP8
 
 ## Development server
 
@@ -13,6 +15,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+### Build for Github Pages
+
+For explanation, watch: https://youtu.be/oa9cnWTpqP8?t=52m17s 
+
+Run `ng build --prod --base-href="https://jorluiseptor.github.io/angular-life-goals" ` 
+Run `angular-cli-ghpages`
 
 ## Running unit tests
 
