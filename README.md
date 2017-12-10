@@ -2,7 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
 
-This is based on the video: https://youtu.be/oa9cnWTpqP8
+This is based on the video: [Angular Tutorial](https://youtu.be/oa9cnWTpqP8)
+
+## Website
+
+[Angular Life Goals](https://jorluiseptor.github.io/angular-life-goals)
 
 ## Development server
 
@@ -18,7 +22,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ### Build for Github Pages
 
-For explanation, watch: https://youtu.be/oa9cnWTpqP8?t=52m17s 
+For explanation, watch: [Video Explanation](https://youtu.be/oa9cnWTpqP8?t=52m17s)
 
 Run `ng build --prod --base-href="https://jorluiseptor.github.io/angular-life-goals" ` 
 Run `angular-cli-ghpages`
